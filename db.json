@@ -1,0 +1,906 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Russian Federation",
+      "shortName": "Russia",
+      "code": "RU"
+    },
+    {
+      "id": 2,
+      "name": "United States of America",
+      "shortName": "United States",
+      "code": "US"
+    },
+    {
+      "id": 3,
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "shortName": "United Kingdom",
+      "code": "GB"
+    },
+    {
+      "id": 4,
+      "name": "Federal Republic of Germany",
+      "shortName": "Germany",
+      "code": "DE"
+    },
+    {
+      "id": 5,
+      "name": "French Republic",
+      "shortName": "France",
+      "code": "FR"
+    },
+    {
+      "id": 6,
+      "name": "Italian Republic",
+      "shortName": "Italy",
+      "code": "IT"
+    },
+    {
+      "id": 7,
+      "name": "Kingdom of Spain",
+      "shortName": "Spain",
+      "code": "ES"
+    },
+    {
+      "id": 8,
+      "name": "Portuguese Republic",
+      "shortName": "Portugal",
+      "code": "PT"
+    },
+    {
+      "id": 9,
+      "name": "Kingdom of the Netherlands",
+      "shortName": "Netherlands",
+      "code": "NL"
+    },
+    {
+      "id": 10,
+      "name": "Kingdom of Belgium",
+      "shortName": "Belgium",
+      "code": "BE"
+    },
+    {
+      "id": 11,
+      "name": "Swiss Confederation",
+      "shortName": "Switzerland",
+      "code": "CH"
+    },
+    {
+      "id": 12,
+      "name": "Republic of Austria",
+      "shortName": "Austria",
+      "code": "AT"
+    },
+    {
+      "id": 13,
+      "name": "Kingdom of Sweden",
+      "shortName": "Sweden",
+      "code": "SE"
+    },
+    {
+      "id": 14,
+      "name": "Kingdom of Norway",
+      "shortName": "Norway",
+      "code": "NO"
+    },
+    {
+      "id": 15,
+      "name": "Kingdom of Denmark",
+      "shortName": "Denmark",
+      "code": "DK"
+    },
+    {
+      "id": 16,
+      "name": "Republic of Finland",
+      "shortName": "Finland",
+      "code": "FI"
+    },
+    {
+      "id": 17,
+      "name": "Republic of Poland",
+      "shortName": "Poland",
+      "code": "PL"
+    },
+    {
+      "id": 18,
+      "name": "Czech Republic",
+      "shortName": "Czechia",
+      "code": "CZ"
+    },
+    {
+      "id": 19,
+      "name": "Slovak Republic",
+      "shortName": "Slovakia",
+      "code": "SK"
+    },
+    {
+      "id": 20,
+      "name": "Hungary",
+      "shortName": "Hungary",
+      "code": "HU"
+    },
+    {
+      "id": 21,
+      "name": "Romania",
+      "shortName": "Romania",
+      "code": "RO"
+    },
+    {
+      "id": 22,
+      "name": "Republic of Bulgaria",
+      "shortName": "Bulgaria",
+      "code": "BG"
+    },
+    {
+      "id": 23,
+      "name": "Hellenic Republic",
+      "shortName": "Greece",
+      "code": "GR"
+    },
+    {
+      "id": 24,
+      "name": "Republic of Turkey",
+      "shortName": "Turkey",
+      "code": "TR"
+    },
+    {
+      "id": 25,
+      "name": "Ukraine",
+      "shortName": "Ukraine",
+      "code": "UA"
+    },
+    {
+      "id": 26,
+      "name": "Republic of Belarus",
+      "shortName": "Belarus",
+      "code": "BY"
+    },
+    {
+      "id": 27,
+      "name": "Republic of Kazakhstan",
+      "shortName": "Kazakhstan",
+      "code": "KZ"
+    },
+    {
+      "id": 28,
+      "name": "Republic of Uzbekistan",
+      "shortName": "Uzbekistan",
+      "code": "UZ"
+    },
+    {
+      "id": 29,
+      "name": "Kyrgyz Republic",
+      "shortName": "Kyrgyzstan",
+      "code": "KG"
+    },
+    {
+      "id": 30,
+      "name": "Republic of Armenia",
+      "shortName": "Armenia",
+      "code": "AM"
+    },
+    {
+      "id": 31,
+      "name": "Georgia",
+      "shortName": "Georgia",
+      "code": "GE"
+    },
+    {
+      "id": 32,
+      "name": "Republic of Azerbaijan",
+      "shortName": "Azerbaijan",
+      "code": "AZ"
+    },
+    {
+      "id": 33,
+      "name": "People's Republic of China",
+      "shortName": "China",
+      "code": "CN"
+    },
+    {
+      "id": 34,
+      "name": "Japan",
+      "shortName": "Japan",
+      "code": "JP"
+    },
+    {
+      "id": 35,
+      "name": "Republic of Korea",
+      "shortName": "South Korea",
+      "code": "KR"
+    },
+    {
+      "id": 36,
+      "name": "Republic of India",
+      "shortName": "India",
+      "code": "IN"
+    },
+    {
+      "id": 37,
+      "name": "Islamic Republic of Pakistan",
+      "shortName": "Pakistan",
+      "code": "PK"
+    },
+    {
+      "id": 38,
+      "name": "People's Republic of Bangladesh",
+      "shortName": "Bangladesh",
+      "code": "BD"
+    },
+    {
+      "id": 39,
+      "name": "Kingdom of Thailand",
+      "shortName": "Thailand",
+      "code": "TH"
+    },
+    {
+      "id": 40,
+      "name": "Socialist Republic of Vietnam",
+      "shortName": "Vietnam",
+      "code": "VN"
+    },
+    {
+      "id": 41,
+      "name": "Republic of Singapore",
+      "shortName": "Singapore",
+      "code": "SG"
+    },
+    {
+      "id": 42,
+      "name": "Malaysia",
+      "shortName": "Malaysia",
+      "code": "MY"
+    },
+    {
+      "id": 43,
+      "name": "Republic of Indonesia",
+      "shortName": "Indonesia",
+      "code": "ID"
+    },
+    {
+      "id": 44,
+      "name": "Republic of the Philippines",
+      "shortName": "Philippines",
+      "code": "PH"
+    },
+    {
+      "id": 45,
+      "name": "United Arab Emirates",
+      "shortName": "UAE",
+      "code": "AE"
+    },
+    {
+      "id": 46,
+      "name": "Kingdom of Saudi Arabia",
+      "shortName": "Saudi Arabia",
+      "code": "SA"
+    },
+    {
+      "id": 47,
+      "name": "State of Qatar",
+      "shortName": "Qatar",
+      "code": "QA"
+    },
+    {
+      "id": 48,
+      "name": "State of Kuwait",
+      "shortName": "Kuwait",
+      "code": "KW"
+    },
+    {
+      "id": 49,
+      "name": "State of Israel",
+      "shortName": "Israel",
+      "code": "IL"
+    },
+    {
+      "id": 50,
+      "name": "Arab Republic of Egypt",
+      "shortName": "Egypt",
+      "code": "EG"
+    },
+    {
+      "id": 51,
+      "name": "Republic of South Africa",
+      "shortName": "South Africa",
+      "code": "ZA"
+    },
+    {
+      "id": 52,
+      "name": "Kingdom of Morocco",
+      "shortName": "Morocco",
+      "code": "MA"
+    },
+    {
+      "id": 53,
+      "name": "Republic of Tunisia",
+      "shortName": "Tunisia",
+      "code": "TN"
+    },
+    {
+      "id": 54,
+      "name": "Republic of Kenya",
+      "shortName": "Kenya",
+      "code": "KE"
+    },
+    {
+      "id": 55,
+      "name": "Federal Republic of Nigeria",
+      "shortName": "Nigeria",
+      "code": "NG"
+    },
+    {
+      "id": 56,
+      "name": "Republic of Ghana",
+      "shortName": "Ghana",
+      "code": "GH"
+    },
+    {
+      "id": 57,
+      "name": "United Republic of Tanzania",
+      "shortName": "Tanzania",
+      "code": "TZ"
+    },
+    {
+      "id": 58,
+      "name": "Republic of Uganda",
+      "shortName": "Uganda",
+      "code": "UG"
+    },
+    {
+      "id": 59,
+      "name": "Federal Democratic Republic of Ethiopia",
+      "shortName": "Ethiopia",
+      "code": "ET"
+    },
+    {
+      "id": 60,
+      "name": "Canada",
+      "shortName": "Canada",
+      "code": "CA"
+    },
+    {
+      "id": 61,
+      "name": "United Mexican States",
+      "shortName": "Mexico",
+      "code": "MX"
+    },
+    {
+      "id": 62,
+      "name": "Federative Republic of Brazil",
+      "shortName": "Brazil",
+      "code": "BR"
+    },
+    {
+      "id": 63,
+      "name": "Argentine Republic",
+      "shortName": "Argentina",
+      "code": "AR"
+    },
+    {
+      "id": 64,
+      "name": "Republic of Chile",
+      "shortName": "Chile",
+      "code": "CL"
+    },
+    {
+      "id": 65,
+      "name": "Republic of Colombia",
+      "shortName": "Colombia",
+      "code": "CO"
+    },
+    {
+      "id": 66,
+      "name": "Republic of Peru",
+      "shortName": "Peru",
+      "code": "PE"
+    },
+    {
+      "id": 67,
+      "name": "Oriental Republic of Uruguay",
+      "shortName": "Uruguay",
+      "code": "UY"
+    },
+    {
+      "id": 68,
+      "name": "Republic of Paraguay",
+      "shortName": "Paraguay",
+      "code": "PY"
+    },
+    {
+      "id": 69,
+      "name": "Plurinational State of Bolivia",
+      "shortName": "Bolivia",
+      "code": "BO"
+    },
+    {
+      "id": 70,
+      "name": "Republic of Ecuador",
+      "shortName": "Ecuador",
+      "code": "EC"
+    },
+    {
+      "id": 71,
+      "name": "Bolivarian Republic of Venezuela",
+      "shortName": "Venezuela",
+      "code": "VE"
+    },
+    {
+      "id": 72,
+      "name": "Commonwealth of Australia",
+      "shortName": "Australia",
+      "code": "AU"
+    },
+    {
+      "id": 73,
+      "name": "New Zealand",
+      "shortName": "New Zealand",
+      "code": "NZ"
+    },
+    {
+      "id": 74,
+      "name": "Republic of Ireland",
+      "shortName": "Ireland",
+      "code": "IE"
+    },
+    {
+      "id": 75,
+      "name": "Republic of Iceland",
+      "shortName": "Iceland",
+      "code": "IS"
+    },
+    {
+      "id": 76,
+      "name": "Republic of Estonia",
+      "shortName": "Estonia",
+      "code": "EE"
+    },
+    {
+      "id": 77,
+      "name": "Republic of Latvia",
+      "shortName": "Latvia",
+      "code": "LV"
+    },
+    {
+      "id": 78,
+      "name": "Republic of Lithuania",
+      "shortName": "Lithuania",
+      "code": "LT"
+    },
+    {
+      "id": 79,
+      "name": "Republic of Croatia",
+      "shortName": "Croatia",
+      "code": "HR"
+    },
+    {
+      "id": 80,
+      "name": "Republic of Slovenia",
+      "shortName": "Slovenia",
+      "code": "SI"
+    },
+    {
+      "id": 81,
+      "name": "Republic of Serbia",
+      "shortName": "Serbia",
+      "code": "RS"
+    },
+    {
+      "id": 82,
+      "name": "Bosnia and Herzegovina",
+      "shortName": "Bosnia",
+      "code": "BA"
+    },
+    {
+      "id": 83,
+      "name": "Republic of North Macedonia",
+      "shortName": "North Macedonia",
+      "code": "MK"
+    },
+    {
+      "id": 84,
+      "name": "Republic of Albania",
+      "shortName": "Albania",
+      "code": "AL"
+    },
+    {
+      "id": 85,
+      "name": "Montenegro",
+      "shortName": "Montenegro",
+      "code": "ME"
+    },
+    {
+      "id": 86,
+      "name": "Republic of Moldova",
+      "shortName": "Moldova",
+      "code": "MD"
+    },
+    {
+      "id": 87,
+      "name": "Grand Duchy of Luxembourg",
+      "shortName": "Luxembourg",
+      "code": "LU"
+    },
+    {
+      "id": 88,
+      "name": "Republic of Malta",
+      "shortName": "Malta",
+      "code": "MT"
+    },
+    {
+      "id": 89,
+      "name": "Republic of Cyprus",
+      "shortName": "Cyprus",
+      "code": "CY"
+    },
+    {
+      "id": 90,
+      "name": "Principality of Andorra",
+      "shortName": "Andorra",
+      "code": "AD"
+    },
+    {
+      "id": 91,
+      "name": "Principality of Monaco",
+      "shortName": "Monaco",
+      "code": "MC"
+    },
+    {
+      "id": 92,
+      "name": "Republic of San Marino",
+      "shortName": "San Marino",
+      "code": "SM"
+    },
+    {
+      "id": 93,
+      "name": "Vatican City State",
+      "shortName": "Vatican City",
+      "code": "VA"
+    },
+    {
+      "id": 94,
+      "name": "Hong Kong Special Administrative Region",
+      "shortName": "Hong Kong",
+      "code": "HK"
+    },
+    {
+      "id": 95,
+      "name": "Macao Special Administrative Region",
+      "shortName": "Macao",
+      "code": "MO"
+    },
+    {
+      "id": 96,
+      "name": "Taiwan",
+      "shortName": "Taiwan",
+      "code": "TW"
+    },
+    {
+      "id": 97,
+      "name": "Democratic Socialist Republic of Sri Lanka",
+      "shortName": "Sri Lanka",
+      "code": "LK"
+    },
+    {
+      "id": 98,
+      "name": "Federal Democratic Republic of Nepal",
+      "shortName": "Nepal",
+      "code": "NP"
+    },
+    {
+      "id": 99,
+      "name": "Kingdom of Cambodia",
+      "shortName": "Cambodia",
+      "code": "KH"
+    },
+    {
+      "id": 100,
+      "name": "Lao People's Democratic Republic",
+      "shortName": "Laos",
+      "code": "LA"
+    }
+  ],
+  "currencies": [
+    {
+      "id": 1,
+      "currencyCode": "USD",
+      "currencySymbol": "$",
+      "cyrrencyName": "US Dollar"
+    },
+    {
+      "id": 2,
+      "currencyCode": "EUR",
+      "currencySymbol": "€",
+      "cyrrencyName": "Euro"
+    },
+    {
+      "id": 3,
+      "currencyCode": "RUB",
+      "currencySymbol": "₽",
+      "cyrrencyName": "Russian Ruble"
+    },
+    {
+      "id": 4,
+      "currencyCode": "GBP",
+      "currencySymbol": "£",
+      "cyrrencyName": "Pound Sterling"
+    },
+    {
+      "id": 5,
+      "currencyCode": "JPY",
+      "currencySymbol": "¥",
+      "cyrrencyName": "Japanese Yen"
+    },
+    {
+      "id": 6,
+      "currencyCode": "CNY",
+      "currencySymbol": "¥",
+      "cyrrencyName": "Chinese Yuan"
+    },
+    {
+      "id": 7,
+      "currencyCode": "CHF",
+      "currencySymbol": "CHF",
+      "cyrrencyName": "Swiss Franc"
+    },
+    {
+      "id": 8,
+      "currencyCode": "CAD",
+      "currencySymbol": "$",
+      "cyrrencyName": "Canadian Dollar"
+    },
+    {
+      "id": 9,
+      "currencyCode": "AUD",
+      "currencySymbol": "$",
+      "cyrrencyName": "Australian Dollar"
+    },
+    {
+      "id": 10,
+      "currencyCode": "NZD",
+      "currencySymbol": "$",
+      "cyrrencyName": "New Zealand Dollar"
+    },
+    {
+      "id": 11,
+      "currencyCode": "SEK",
+      "currencySymbol": "kr",
+      "cyrrencyName": "Swedish Krona"
+    },
+    {
+      "id": 12,
+      "currencyCode": "NOK",
+      "currencySymbol": "kr",
+      "cyrrencyName": "Norwegian Krone"
+    },
+    {
+      "id": 13,
+      "currencyCode": "DKK",
+      "currencySymbol": "kr",
+      "cyrrencyName": "Danish Krone"
+    },
+    {
+      "id": 14,
+      "currencyCode": "PLN",
+      "currencySymbol": "zł",
+      "cyrrencyName": "Polish Zloty"
+    },
+    {
+      "id": 15,
+      "currencyCode": "CZK",
+      "currencySymbol": "Kč",
+      "cyrrencyName": "Czech Koruna"
+    },
+    {
+      "id": 16,
+      "currencyCode": "HUF",
+      "currencySymbol": "Ft",
+      "cyrrencyName": "Hungarian Forint"
+    },
+    {
+      "id": 17,
+      "currencyCode": "RON",
+      "currencySymbol": "lei",
+      "cyrrencyName": "Romanian Leu"
+    },
+    {
+      "id": 18,
+      "currencyCode": "BGN",
+      "currencySymbol": "лв",
+      "cyrrencyName": "Bulgarian Lev"
+    },
+    {
+      "id": 19,
+      "currencyCode": "TRY",
+      "currencySymbol": "₺",
+      "cyrrencyName": "Turkish Lira"
+    },
+    {
+      "id": 20,
+      "currencyCode": "UAH",
+      "currencySymbol": "₴",
+      "cyrrencyName": "Ukrainian Hryvnia"
+    },
+    {
+      "id": 21,
+      "currencyCode": "BYN",
+      "currencySymbol": "Br",
+      "cyrrencyName": "Belarusian Ruble"
+    },
+    {
+      "id": 22,
+      "currencyCode": "KZT",
+      "currencySymbol": "₸",
+      "cyrrencyName": "Kazakhstani Tenge"
+    },
+    {
+      "id": 23,
+      "currencyCode": "UZS",
+      "currencySymbol": "soʻm",
+      "cyrrencyName": "Uzbekistani Som"
+    },
+    {
+      "id": 24,
+      "currencyCode": "KGS",
+      "currencySymbol": "с",
+      "cyrrencyName": "Kyrgyzstani Som"
+    },
+    {
+      "id": 25,
+      "currencyCode": "AMD",
+      "currencySymbol": "֏",
+      "cyrrencyName": "Armenian Dram"
+    },
+    {
+      "id": 26,
+      "currencyCode": "GEL",
+      "currencySymbol": "₾",
+      "cyrrencyName": "Georgian Lari"
+    },
+    {
+      "id": 27,
+      "currencyCode": "AZN",
+      "currencySymbol": "₼",
+      "cyrrencyName": "Azerbaijani Manat"
+    },
+    {
+      "id": 28,
+      "currencyCode": "INR",
+      "currencySymbol": "₹",
+      "cyrrencyName": "Indian Rupee"
+    },
+    {
+      "id": 29,
+      "currencyCode": "PKR",
+      "currencySymbol": "₨",
+      "cyrrencyName": "Pakistani Rupee"
+    },
+    {
+      "id": 30,
+      "currencyCode": "BDT",
+      "currencySymbol": "৳",
+      "cyrrencyName": "Bangladeshi Taka"
+    },
+    {
+      "id": 31,
+      "currencyCode": "THB",
+      "currencySymbol": "฿",
+      "cyrrencyName": "Thai Baht"
+    },
+    {
+      "id": 32,
+      "currencyCode": "VND",
+      "currencySymbol": "₫",
+      "cyrrencyName": "Vietnamese Dong"
+    },
+    {
+      "id": 33,
+      "currencyCode": "SGD",
+      "currencySymbol": "$",
+      "cyrrencyName": "Singapore Dollar"
+    },
+    {
+      "id": 34,
+      "currencyCode": "MYR",
+      "currencySymbol": "RM",
+      "cyrrencyName": "Malaysian Ringgit"
+    },
+    {
+      "id": 35,
+      "currencyCode": "IDR",
+      "currencySymbol": "Rp",
+      "cyrrencyName": "Indonesian Rupiah"
+    },
+    {
+      "id": 36,
+      "currencyCode": "PHP",
+      "currencySymbol": "₱",
+      "cyrrencyName": "Philippine Peso"
+    },
+    {
+      "id": 37,
+      "currencyCode": "AED",
+      "currencySymbol": "د.إ",
+      "cyrrencyName": "UAE Dirham"
+    },
+    {
+      "id": 38,
+      "currencyCode": "SAR",
+      "currencySymbol": "﷼",
+      "cyrrencyName": "Saudi Riyal"
+    },
+    {
+      "id": 39,
+      "currencyCode": "QAR",
+      "currencySymbol": "﷼",
+      "cyrrencyName": "Qatari Riyal"
+    },
+    {
+      "id": 40,
+      "currencyCode": "KWD",
+      "currencySymbol": "د.ك",
+      "cyrrencyName": "Kuwaiti Dinar"
+    },
+    {
+      "id": 41,
+      "currencyCode": "ILS",
+      "currencySymbol": "₪",
+      "cyrrencyName": "Israeli New Shekel"
+    },
+    {
+      "id": 42,
+      "currencyCode": "EGP",
+      "currencySymbol": "£",
+      "cyrrencyName": "Egyptian Pound"
+    },
+    {
+      "id": 43,
+      "currencyCode": "ZAR",
+      "currencySymbol": "R",
+      "cyrrencyName": "South African Rand"
+    },
+    {
+      "id": 44,
+      "currencyCode": "MAD",
+      "currencySymbol": "DH",
+      "cyrrencyName": "Moroccan Dirham"
+    },
+    {
+      "id": 45,
+      "currencyCode": "TND",
+      "currencySymbol": "د.ت",
+      "cyrrencyName": "Tunisian Dinar"
+    },
+    {
+      "id": 46,
+      "currencyCode": "KES",
+      "currencySymbol": "KSh",
+      "cyrrencyName": "Kenyan Shilling"
+    },
+    {
+      "id": 47,
+      "currencyCode": "NGN",
+      "currencySymbol": "₦",
+      "cyrrencyName": "Nigerian Naira"
+    },
+    {
+      "id": 48,
+      "currencyCode": "GHS",
+      "currencySymbol": "₵",
+      "cyrrencyName": "Ghanaian Cedi"
+    },
+    {
+      "id": 49,
+      "currencyCode": "BRL",
+      "currencySymbol": "R$",
+      "cyrrencyName": "Brazilian Real"
+    },
+    {
+      "id": 50,
+      "currencyCode": "MXN",
+      "currencySymbol": "$",
+      "cyrrencyName": "Mexican Peso"
+    }
+  ]
+}
