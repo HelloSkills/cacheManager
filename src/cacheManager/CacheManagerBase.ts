@@ -6,10 +6,10 @@ type CacheItem<T> = {
 }
 
 export class CacheManagerBase {
-  manager = LocalStorageManager
-  DEFAULT_TTL = 3000
+  private manager = LocalStorageManager
+  private DEFAULT_TTL = 3000
 
-  config = {
+  protected config = {
     country: {
       key: 'country'
     },
@@ -19,7 +19,7 @@ export class CacheManagerBase {
     }
   }
 
-  set<T>(key: string, data: T, ttl = this.DEFAULT_TTL) {
+  protected set<T>(key: string, data: T, ttl = this.DEFAULT_TTL) {
     const item: CacheItem<T> = {
       value: data,
       expiredTime: new Date().getTime() + ttl
@@ -28,7 +28,7 @@ export class CacheManagerBase {
     this.manager.set(key, item)
   }
 
-  get<T = unknown>(key: string): T | null {
+  protected get<T = unknown>(key: string): T | null {
     const item = this.manager.get<CacheItem<T>>(key)
     const currentDateTimestamp = new Date().getTime()
 
@@ -44,7 +44,7 @@ export class CacheManagerBase {
     return item.value
   }
 
-  delete(key: string) {
+  protected delete(key: string) {
     return this.manager.delete(key)
   }
 }
