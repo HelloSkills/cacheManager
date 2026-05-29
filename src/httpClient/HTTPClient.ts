@@ -32,7 +32,7 @@ export class HTTPClient {
     }
   }
 
-  static async set<T>(endpoint: string, data: unknown): Promise<HTTPClientResponse<T>> {
+  static async post<T>(endpoint: string, data: unknown): Promise<HTTPClientResponse<T>> {
     const url = `${this.baseUrlAPI}${endpoint}`
 
     try {
